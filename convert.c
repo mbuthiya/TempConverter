@@ -4,7 +4,8 @@
 
 void main()
 {
-  int fahr,celsius;
+  int fahr;
+  float celsius;
   int lower, upper,step;
 
   lower = 0;
@@ -12,10 +13,11 @@ void main()
   step = 20;
 
   fahr = lower;
+  printf("Fahr\tCelsius\n");
   while (fahr <= upper)
   {
-      celsius = 5*(fahr-32)/9;
-      printf("%d \t %d\n",fahr,celsius);
+      celsius = (fahr-32.0)*(5.0/9.0);
+      printf("%3d %8.1lf\n",fahr,celsius);
       fahr = fahr + step;
   }
 }
