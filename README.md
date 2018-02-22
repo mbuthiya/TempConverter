@@ -1,10 +1,12 @@
-# Hello World
+# TempConverter
 
-First C program attempt to create a program that prints out "Hello, World!" on the terminal.
+Simple C program that converts Celsius to Fahrenheit using the formula.
+C =(5/9)(F-32)
 
+
+The sample output looks like this.
 
 ```bash
-$ Hello World
 ```
 
 ## Running on Unix
@@ -12,15 +14,15 @@ $ Hello World
 To run your command on a Linux system you need a c compiler installed.
 
 ```bash
-$ gcc hello.c -o hello
+$ gcc temp.c -o temp
 ```
 
-This compiles the code and creates a source code file called `hello`
+This compiles the code and creates a source code file called `temp`
 
 To run that source code file
 
 ```bash
-$ ./hello
+$ ./temp
 ```
 
 ## License
