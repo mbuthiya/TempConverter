@@ -7,6 +7,23 @@ C =(5/9)(F-32)
 The sample output looks like this.
 
 ```bash
+0 	 -17
+20 	 -6
+40 	 4
+60 	 15
+80 	 26
+100 	 37
+120 	 48
+140 	 60
+160 	 71
+180 	 82
+200 	 93
+220 	 104
+240 	 115
+260 	 126
+280 	 137
+300 	 148
+
 ```
 
 ## Running on Unix
@@ -14,15 +31,15 @@ The sample output looks like this.
 To run your command on a Linux system you need a c compiler installed.
 
 ```bash
-$ gcc temp.c -o temp
+$ gcc convert.c -o convert
 ```
 
-This compiles the code and creates a source code file called `temp`
+This compiles the code and creates a source code file called `convert`
 
 To run that source code file
 
 ```bash
-$ ./temp
+$ ./convert
 ```
 
 ## License
